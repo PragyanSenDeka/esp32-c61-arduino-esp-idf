@@ -9,7 +9,7 @@ This repository has a free, beginner-friendly lab manual and a ready-to-build ex
 ![Chip](https://img.shields.io/badge/chip-ESP32--C61-red)
 ![License](https://img.shields.io/badge/manual-CC%20BY%204.0-lightgrey)
 
-### 📄 [Read the lab manual (PDF)](./ESP32-C61_Lab1_Hello_World_ESP-IDF.pdf)
+### 📄 [Read the lab manual (PDF)](./ESP32-C61_Lab1_Hello_World_ESP-IDF2.pdf)
 
 64 pages and 37 diagrams, written for first-year engineering students. Every step and every new term is explained, from installing ESP-IDF to seeing `Hello world!` on the serial monitor.
 
