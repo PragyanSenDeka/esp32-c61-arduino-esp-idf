@@ -60,7 +60,7 @@ idf.py build
 idf.py -p COM19 flash monitor
 ```
 
-The first build takes 5–15 minutes. Press `Ctrl + ]` to leave the monitor. The [manual](./ESP32-C61_Lab1_Hello_World_ESP-IDF.pdf) explains what every one of these lines does.
+The first build takes 5–15 minutes. Press `Ctrl + ]` to leave the monitor. The [manual](./ESP32-C61_Lab1_Hello_World_ESP-IDF2.pdf) explains what every one of these lines does.
 
 ## Tested with
 
