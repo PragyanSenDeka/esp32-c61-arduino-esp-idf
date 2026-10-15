@@ -14,7 +14,7 @@ This repository has free, beginner-friendly lab manuals. They show how to compil
 | Lab | What you'll do | Manual |
 |---|---|---|
 | **Lab 1: Hello, ESP32-C61!** | Install ESP-IDF, create an Arduino-ready project, build and flash `Hello world!`. Covers how compiling, flashing and booting really work. | 📄 [Read Lab 1 (PDF)](./ESP32-C61_Lab1_Hello_World_ESP-IDF2.pdf) |
-| **Lab 2: Your Arduino Projects on ESP-IDF** | Port a real Arduino sketch and its Library Manager libraries (MD_Parola + MD_MAX72XX) to scroll text on a MAX7219 LED matrix. Includes a recipe for any library. | 📄 [Read Lab 2 (PDF)](./lab2-arduino-projects/ESP32-C61_Lab2_Arduino_Projects_on_ESP-IDF.pdf) |
+| **Lab 2: Your Arduino Projects on ESP-IDF** | Port a real Arduino sketch and its Library Manager libraries (MD_Parola + MD_MAX72XX) to scroll text on a MAX7219 LED matrix. Includes a recipe for any library. | 📄 [Read Lab 2 (PDF)](./ESP32-C61_Lab2_Arduino_Projects_on_ESP-IDF.pdf) |
 
 Both are written for first-year engineering students: every step and every new term is explained, with plenty of diagrams. Start with Lab 1.
 
@@ -92,7 +92,7 @@ ESP-IDF doesn't search your Arduino libraries folder. Every library must become 
 
 6. `idf.py set-target esp32c61`, `idf.py build`, `idf.py -p COMx flash monitor`.
 
-The [Lab 2 manual](./lab2-arduino-projects/ESP32-C61_Lab2_Arduino_Projects_on_ESP-IDF.pdf) walks through this with a real project and covers other library layouts, dependencies and troubleshooting.
+The [Lab 2 manual](./ESP32-C61_Lab2_Arduino_Projects_on_ESP-IDF.pdf) walks through this with a real project and covers other library layouts, dependencies and troubleshooting.
 
 ## Tested with
 
@@ -123,9 +123,8 @@ Chapter 6 of the Lab 1 manual covers boards with native USB, bootloader addresse
 
 ```
 .
-├── ESP32-C61_Lab1_Hello_World_ESP-IDF2.pdf        Lab 1 manual
-├── lab2-arduino-projects/
-│   └── ESP32-C61_Lab2_Arduino_Projects_on_ESP-IDF.pdf   Lab 2 manual
+├── ESP32-C61_Lab1_Hello_World_ESP-IDF2.pdf          Lab 1 manual
+├── ESP32-C61_Lab2_Arduino_Projects_on_ESP-IDF.pdf   Lab 2 manual
 └── README.md
 ```
 
@@ -169,7 +168,7 @@ Both include troubleshooting, a quick reference, a glossary and self-test questi
 
 ## Author
 
-Prepared by **Pragyan Sen Deka**, Associate , IIM Calcutta Innovation Park Technology and Innovation Council ,M.Tech student, Robotics & AI, IIT Guwahati.
+Prepared by **Pragyan Sen Deka**, M.Tech student, Robotics & AI, IIT Guwahati.
 
 Found a mistake, or got it working on another board? Please [open an issue](../../issues). Feedback and corrections are welcome.
 
